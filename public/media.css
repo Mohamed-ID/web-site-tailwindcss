@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+}
+
+/* Media */
+
+/* Small devices X (landscape phones, 390px and up) */
+@media (min-width: 360px) { 
+    .parent .container {
+    width: 320px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .parent .container {
+    width: 550px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .parent .container {
+    width: 720px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .parent .container {
+    width: 960px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .parent .container {
+    width: 1200px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .parent .container {
+    width: 1400px;
+    }
+}
+/* Media End */
+
+
+.pt-1\/2 {
+    padding-top: 50%;
+}
+
+.bg-main {
+    background-image: url(../img/bg.jpg);
+}
+
+.were::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -10px;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    border-top: 12px solid;
+    border-left: 15px outset transparent;
+    border-right: 15px outset transparent;
+}

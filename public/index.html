@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Media -->
+    <link rel="stylesheet" href="media.css">
+    <title>Moderno</title>
+</head>
+<body>
+    <div class="parent">
+        <header class="absolute left-0 right-0 z-50">
+            <div class="container flex justify-between items-center py-1">
+                <img src="../img/logo.png" class="w-10">
+                <i class="fa-sharp fa-solid fa-bars text-3xl text-white cursor-pointer" id="open-menu"></i>
+                
+            </div>
+            <nav class="menu w-300 h-screen fixed top-0 right-[-300px] flex flex-col items-center bg-second-Color transition-right ease-in-out duration-4/10 ">
+                <i class="fa-solid fa-xmark self-end p-4 text-2xl text-gray-400 cursor-pointer" id="close-menu"></i>
+                <span class="text-white font-light text-4xl">Menu</span>
+                <ul class="flex flex-col items-center gap-2 text-white font-medium mt-4">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <div class="social flex gap-4 mt-7">
+                    <a href="">
+                        <i class="fa-brands fa-facebook bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-dribbble bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                    <i class="fa-brands fa-behance bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-pinterest bg-white p-2 rounded-full"></i>
+                    </a>
+                    
+                </div>
+            </nav>
+        </header>
+        <main class="bg-main-bg bg-cover h-screen relative">
+            <div class="absolute z-30 h-screen bg-gray-900 opacity-20"></div>
+            <div class="container absolute z-40 left-0 right-0 h-screen flex justify-center items-center flex-col gap-2">
+                <h2 class="my-4 text-4xl sm:text-7xl text-white">MODERNO</h2>
+                <p class="text-center text-xl text-white px-6">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="text-white hover:text-first-Color bg-first-Color hover:bg-white transition-colors duration-4/10 border-first-Color border-2 px-7 py-3">Get in Touch</button>
+            </div>
+        </main>
+        <section>
+            <div class="container grid grid-cols-fit gap-9 py-8">
+                <div class="card flex flex-col items-center gap-8">
+                    <i class="fa-regular fa-gem text-first-Color w-24 aspect-square flex justify-center items-center text-2xl border-third-Color border rounded-full"></i>
+                    <span class="text-3xl font-light">We Are Creative</span>
+                    <p class="text-center text-third-Color text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+                    </p>
+                </div>
+                <div class="card flex flex-col items-center gap-8">
+                    <i class="fa-solid fa-gear text-first-Color w-24 aspect-square flex justify-center items-center text-2xl border-third-Color border rounded-full"></i>
+                    <span class="text-3xl font-light">We Have Skills</span>
+                    <p  class="text-center text-third-Color text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+                    </p>
+                </div>
+                <div class="card flex flex-col items-center gap-8">
+                    <i class="fa-solid fa-life-ring text-first-Color w-24 aspect-square flex justify-center items-center text-2xl border-third-Color border rounded-full"></i>
+                    <span class="text-3xl font-light">We Love To Help</span>
+                    <p  class="text-center text-third-Color text-sm">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-fourty-Color py-20 my-20">
+            <div class="container">
+                <div class="head flex flex-col justify-center items-center mb-16">
+                    <span class="text-3xl font-light my-6">Success Stories</span>
+                    <p class="text-center text-third-Color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+                <div class="figures grid grid-cols-fill-3 gap-10 justify-center">
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                    <figure class="group relative flex justify-center items-center">
+                        <img src="../img/projects/project-thumbnail-1.png" alt="fruit">
+                        <i class="fa-solid fa-plus group absolute flex justify-center items-center w-16 aspect-square bg-first-Color text-5xl text-white opacity-0 group-hover:opacity-100 transition-all duration-4/10 cursor-pointer"></i>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="head flex flex-col justify-center items-center mb-16">
+                    <span class="text-3xl font-light my-6">Get in Touch</span>
+                    <p class="text-center text-third-Color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+                <div class="map relative flex justify-center items-center mb-24">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3396.8012689228685!2d-7.994411742328748!3d31.639291213805166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2sma!4v1730663400153!5m2!1sar!2sma" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-80"></iframe>
+                    <div class="were absolute bg-gray-800 text-first-Color font-bold rounded px-20 py-8 after:text-gray-800">We Here</div>
+                </div>
+                <div class="box flex flex-col md:flex-row">
+                    <form class="w-full md:w-3/4 flex flex-col">
+                        <div class="name-mail flex gap-4 m-4">
+                            <input type="text" placeholder="Your Name" class="text-xl bg-fifty-Color p-2 pl-3 w-1/2 border-none outline-none">
+                            <input type="email" placeholder="Your Email" class="text-xl bg-fifty-Color p-2 pl-3 w-1/2 border-none outline-none">
+                        </div>
+                        <input type="text" placeholder="Type Message Here..." class="text-xl bg-fifty-Color p-2 pl-3 border-none outline-none m-4">
+                        <textarea placeholder="Message" class="text-xl bg-fifty-Color min-w-52 min-h-40 p-2 pl-3 border-none outline-none m-4"></textarea>
+                        <input type="submit" value="Send" class="bg-first-Color hover:bg-transparent text-white hover:text-first-Color uppercase transition-all duration-4/10 cursor-pointer border-first-Color border-2 m-4 px-2 py-4">
+                    </form>
+                    <div class="contact p-3 my-7 sm:my-0">
+                        <div class="address flex flex-col gap-1 mb-10">
+                            <span class="text-3xl font-light">Our Address</span>
+                            <span class="text-third-Color">4896 Desert Broom Court</span>
+                            <span class="text-third-Color">Newark, NJ 07102</span>
+                            <span class="text-third-Color">United States</span>
+                        </div>
+                        <div class="email flex flex-col gap-1 mb-10">
+                            <span class="text-3xl font-light">Email</span>
+                            <span class="text-third-Color">mail@mail.com</span>
+                        </div>
+                        <div class="number flex flex-col gap-1">
+                            <span class="text-3xl font-light">Phone</span>
+                            <span class="text-third-Color">+00 123-456-78900</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-second-Color p-10">
+            <div class="container flex justify-between items-center">
+                <div class="copyright">
+                    <span class="font-medium">© 2024 Code by <span class="text-first-Color">ID</span></span>
+                </div>
+                <div class="social flex gap-4 flex-col sm:flex-row">
+                    <a href="">
+                        <i class="fa-brands fa-facebook bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-dribbble bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                    <i class="fa-brands fa-behance bg-white p-2 rounded-full"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-pinterest bg-white p-2 rounded-full"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../Js/index.js"></script>
+</body>
+</html>
