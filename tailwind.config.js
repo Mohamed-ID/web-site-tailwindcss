@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "main-bg": "url('/img/bg.jpg')",
-        "sec-bg": "url('/img/projects/project-thumbnail-1.png')",
+        "main-bg": "url('../img/bg.jpg')",
       },
       colors: {
         "first-Color": "#fa5c58",
